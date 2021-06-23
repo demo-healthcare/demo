@@ -106,7 +106,18 @@ gsap.to(".rockbg1", 2, {
   yoyo: true,
   delay: 0
 });
-
+gsap.to(".rock2", 2, {
+  y: 12,
+  repeat: -1,
+  yoyo: true,
+  delay: 0
+});
+gsap.to(".rock3", 2, {
+  y: 12,
+  repeat: -1,
+  yoyo: true,
+  delay: 0
+});
 gsap.to(".swiper-slide-next .slide-text", 0, {
   autoAlpha: 0
 });
